@@ -1,0 +1,362 @@
+/*polices d'écritures*/
+
+@font-face
+{
+  font-family: "Roadway";
+  src: url('../fonts/roadway.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face
+{
+    font-family: 'caviar_dreamsregular';
+    src: url('../fonts/CaviarDreams-webfont.eot');
+    src: url('../fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('../fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('../fonts/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+/*fin des polices d'écritures*/
+
+@import url(general.css);
+/*container principal*/
+.container-fluid 
+{
+	width:100%;
+	background-color:rgba(255,255,255, 0);
+	font-family: "caviar_dreamsregular";
+	padding:0;
+	margin:0;
+	overflow: hidden;
+}
+
+/*fin du container principal*/
+
+/*section header*/
+
+/*section banner*/
+
+.Logo
+{
+	text-align: center;
+	margin-top: -20%;
+	overflow: visible;
+	position: relative;
+}
+
+header .content .row
+{
+	margin-top: -5em;
+}
+
+header .content{
+	background:url("../images/WallpaperDesktopDarken2.png") no-repeat top left;
+	background-attachment: fixed;
+	background-size:cover;
+	padding-top:22%;
+	padding-bottom:22%;
+	font-family: "Roadway";
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+/*
+banner img {
+	text-align: center;
+}*/
+
+banner h1 {
+	text-transform: uppercase;
+    text-align: center;
+	color:rgb(255,255,255);
+	font-size: 4vw;
+}
+
+/*fin section banner*/
+
+/*section buttons*/
+
+.bouton a
+{
+	border-width: 0.762px;
+  	border-color: rgb(255, 255, 0);
+  	border-style: solid;
+  	border-radius: 4px;
+  	background-color: rgba(129, 129, 129, 0.4);
+  	position: relative;
+	color:white;
+	text-decoration:none;
+	font-size: 2em;
+	text-align:center;
+	display:block;
+	vertical-align:middle;
+	margin: 30% 30% 30% 30%;
+	line-height: 150%;
+	text-transform: uppercase;
+}
+
+.bouton a:hover
+{
+	background-color: rgba(255, 255, 0, 0.5);
+}
+
+/*fin section buttons*/
+
+/*fin section header*/
+
+/*section maincontent*/
+
+.TitresSections
+{
+	background: url("../images/ellipse.png") no-repeat center;
+	background-position: bottom;
+	padding-bottom: 1%;
+	font-family: "Roadway";
+	font-size: 5em;
+	text-align: center;
+	margin: 2% 2% 3% 2%;
+	color: black;
+	text-transform: uppercase;
+}
+
+maincontent .content 
+{
+	color: black;
+	background-color:rgba(255,255,255,1);
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+/*section block 1*/
+
+maincontent #block1 .col-md-3
+{
+	text-align: center;
+	height: 100%;
+}
+
+.cercle
+{
+	width: 15em;
+	height: 15em;
+	background-color: yellow;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	display: inline-flex;
+	padding: 0 2% 0 2%;
+    box-shadow: 0 0 0 0.2em yellow;
+	clear: both;
+	margin-top: 1em;
+}
+
+.rectangle
+{
+  border-width: 2.285px;
+  border-color: rgb(255, 255, 0);
+  border-style: solid;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.702);
+  display: inline-flex;
+  min-width: 10em;
+  width: 95%;
+  height: 100%;
+  text-align: center;
+  margin-top: 1em;
+  padding: 0.8em 0.8em 0.8em 0.8em; 
+  text-align: justify;
+  font-size: 1.4em;
+}
+
+#cercleCyril
+{
+	background-image: url("../imgMembres/Cyril.png");
+	background-size: 100%;
+}
+
+#cercleVictorien
+{
+	background-image: url("../imgMembres/Victorien.png");
+	background-size: 100%;
+}
+
+#cercleJeremi
+{
+	background-image: url("../imgMembres/Jeremi.png");
+	background-size: 100%;
+}
+
+#cercleQuentin
+{
+	background-image: url("../imgMembres/Quentin.png");
+	background-size: 100%;
+}
+
+#cercleKylian
+{
+	background-image: url("../imgMembres/Kylian.png");
+	background-size: 100%;
+}
+
+#cercleAxel
+{
+	background-image: url("../imgMembres/Axel.png");
+	background-size: 100%;
+}
+
+#cercleMaxime
+{
+	background-image: url("../imgMembres/Maxime.png");
+	background-size: 100%;
+}
+
+#cercleFlavien
+{
+	background-image: url("../imgMembres/Flavien.png");
+	background-size: 100%;
+}
+
+#cercleBenjamin
+{
+	background-image: url("../imgMembres/Benjamin.png");
+	background-size: 100%;
+}
+
+#cercleNicolas
+{
+	background-image: url("../imgMembres/Nicolas.png");
+	background-size: 100%;
+}
+
+maincontent #block1
+{
+	text-align: justify;
+}
+
+/*fin section block 1*/
+
+/*section block 2*/
+
+maincontent #block2 .col-md-8
+{
+	text-align: center;
+	font-size: 1.7em;
+	display: inline-block;
+	padding-bottom: 2em;
+	padding-top: 0.5em;
+}
+
+/*fin section block 2*/
+
+/*section block 3*/
+
+maincontent #block3 .content .content
+{
+	width: 100%;
+}
+
+maincontent #block3 .col-md-8
+{
+	text-align: center;
+	padding: 2em 2em 2em 2em;
+}
+
+maincontent #block3 .col-md-3
+{
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+	margin: 1em 0 1em 0;
+}
+
+/*fin section block 3*/
+
+/*section block 4*/
+
+#block4 .col-md-8
+{
+	text-align: center;
+	font-size: 2em;
+}
+
+#block4 .content
+{
+	width: 100%;
+}
+
+#block4 .content .col-md-12
+{
+	text-align: center;
+	padding: 1em 5em 5em 5em;
+}
+
+.form-control
+{
+	border-width: 2.285px;
+  	border-color: rgb(255, 255, 0);
+  	border-style: solid;
+  	border-radius: 8px;
+  	background-color: rgba(255, 255, 255, 0.702);
+  	font-size: 1vw;
+  	margin-top: 2em;
+  	width: 40%;
+  	height: 3em;
+  	display: inline-block;
+}
+
+#envoi
+{	
+	border-width: 2.285px;
+  	border-color: rgb(255, 255, 0);
+  	border-style: solid;
+  	border-radius: 8px;
+  	background-color: rgba(0, 0, 0, 0.702);
+	margin-top: 3em;
+	font-size: 1.5vw;
+	text-transform: uppercase;
+	color: white;
+	padding-left: 0.9em;
+	padding-right: 0.9em;
+	text-align: center;
+}
+
+textarea
+{
+	resize: none;
+}
+
+/*fin section block 4*/
+
+/*fin section maincontent*/
+
+/*section footer*/
+
+footer .content p
+{
+	width: 100%;
+	height: 2em;
+	margin-top: -10em;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/*fin section footer*/
+
+/*section parallax*/
+parallax .content 
+{
+	height: 100%;
+	background:url(../images/WallpaperDesktopDarken2.png) no-repeat top left;
+	background-attachment: fixed;
+	background-size:cover;
+	overflow:visible;	
+	margin-bottom: 5em;
+	margin-top: 5em;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+/*fin section parallax*/
